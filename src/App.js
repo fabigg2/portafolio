@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useReducer, useState } from "react";
+import { Header } from "./components/Header";
+import { Sider } from "./components/Sider";
+import { AnimationPack } from "./components/ui/Circles/AnimationPack";
+import contentReducer from "./context/contenteReducer";
+import { MainRouter } from "./router/MainRouter";
+
+
 
 function App() {
+
+  const reducer = useReducer(contentReducer, {})
+  const Context = React.createContext();
+
+  const [showMenu, setShowMenu] = useState(false);
+
+  const handleMenu = () => {
+    setShowMenu(show => !show)
+  }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Context.Provider value={reducer} >
+      <div className="w-full bg-base-100 min-h-screen flex" >
+        <AnimationPack cant={100} />
+        <Header showMenu={handleMenu} />
+        <Sider show={showMenu} />
+        <div className="w-full pt-14 md:pt-0 md:pl-36">
+          <MainRouter />
+        </div>
+
+      </div>
+    </Context.Provider>
   );
 }
 
