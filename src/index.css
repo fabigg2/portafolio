@@ -45,3 +45,8 @@
 .grow{
     font-size: 60px;
 }
+
+.shadow-f:focus{
+    
+    box-shadow: 0 0 6px #01bbf470;
+}

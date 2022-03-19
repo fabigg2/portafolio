@@ -1,16 +1,17 @@
-import React, { useEffect, useReducer, useState } from "react";
+import React, { useReducer, useState } from "react";
 import { Header } from "./components/Header";
 import { Sider } from "./components/Sider";
 import { AnimationPack } from "./components/ui/Circles/AnimationPack";
 import contentReducer from "./context/contenteReducer";
 import { MainRouter } from "./router/MainRouter";
+import content from './utils/content';
+import Context from "./context/context";
 
 
 
 function App() {
 
-  const reducer = useReducer(contentReducer, {})
-  const Context = React.createContext();
+  const reducer = useReducer(contentReducer, content[0])
 
   const [showMenu, setShowMenu] = useState(false);
 

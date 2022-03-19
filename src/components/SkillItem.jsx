@@ -6,7 +6,7 @@ export const SkillItem = ({name, image, color, level='80%'}) => {
     useEffect(()=>{
         range.current.style.background = color;
         range.current.style.width = level;
-    }, [color])
+    }, [color, level])
     return (
         <div className="w-full">
             <div className="flex">

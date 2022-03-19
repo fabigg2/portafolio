@@ -5,7 +5,7 @@ export const AnimateCircles = () => {
     const ref = useRef();
     useEffect(() => {
         if (ref.current) {
-            ref.current.style.top = Math.random() * (100 - 1) + 1 + '%';
+            ref.current.style.top = Math.random() * (99 - 1) + 1 + '%';
             ref.current.style.right = Math.random() * (100 - 10) + 1 + '%';
             ref.current.style.animationDuration = Math.random() + 's';
         }

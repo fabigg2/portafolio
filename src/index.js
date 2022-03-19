@@ -12,7 +12,6 @@ ReactDOM.render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
-
         <App />
       </BrowserRouter>
     </QueryClientProvider>

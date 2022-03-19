@@ -1,11 +1,7 @@
-[
+const content = [
     {
         "lan": "es",
         "nav": [
-            {
-                "title": "home",
-                "link": "/"
-            },
             {
                 "title": "Acerca de",
                 "link": "/about"
@@ -23,20 +19,20 @@
                 "link": "/contact"
             }
         ],
-        "section": [
-            {
+        "section": {
+            home: {
                 "name": "home",
                 "link": "/",
                 "content": {
                     "titles": [
-                        "Hola,",
+                        "Hello,",
                         "Soy Fabian,",
                         "Desarrollador web"
                     ],
                     "btn": "Contáctame"
                 }
             },
-            {
+            about: {
                 "name": "about",
                 "link": "/about",
                 "content": {
@@ -50,7 +46,7 @@
                     ]
                 }
             },
-            {
+            skills: {
                 "name": "skills",
                 "link": "/skills",
                 "content": {
@@ -63,7 +59,7 @@
                     ]
                 }
             },
-            {
+            works: {
                 "name": "works",
                 "link": "/works",
                 "content": {
@@ -76,7 +72,7 @@
                     ]
                 }
             },
-            {
+            contact: {
                 "name": "contact",
                 "link": "/contact",
                 "content": {
@@ -89,6 +85,8 @@
                     ]
                 }
             }
-        ]
+        }
     }
 ]
+
+export default content;

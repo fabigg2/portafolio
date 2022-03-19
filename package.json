@@ -8,10 +8,12 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
+    "express": "^4.17.3",
     "fs": "^0.0.1-security",
     "object-to-formdata": "^4.4.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.28.0",
     "react-query": "^3.34.16",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
@@ -21,7 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "node serve/index.js"
   },
   "eslintConfig": {
     "extends": [
