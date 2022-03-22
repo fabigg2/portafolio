@@ -17,7 +17,7 @@ export const Home = () => {
             </div>
             <a href="/contact" className=" rounded-lg p-1 bg-gradient-to-r from-blue-200 via-blue-100 to-blue-200 inline-block">
                 <div className=" bg-base-100 rounded-lg pr-3 pl-3 pt-1 pb-1 inline-block text-lg text-blue-100">
-                    Contactar me
+                    Contáctame
                 </div>
             </a>
         </div>

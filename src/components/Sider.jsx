@@ -4,7 +4,7 @@ import { getLocalImages } from "../utils/helpers"
 import { Logo } from "./Logo"
 import { SiderItem } from "./SiderItem"
 
-export const Sider = ({show}) => {
+export const Sider = ({show, setShow}) => {
     const [state] = useContext(context);
 
     useEffect(() => {
@@ -17,7 +17,7 @@ export const Sider = ({show}) => {
             <Logo />
             {
                 state && state.nav.map(item=>(
-                    <SiderItem link={item.link} text={item.title} />
+                    <SiderItem link={item.link} text={item.title} setShow={setShow} />
                 ))
             }
 

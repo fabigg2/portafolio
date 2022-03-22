@@ -25,7 +25,7 @@ function App() {
       <div className="w-full bg-base-100 min-h-screen flex" >
         <AnimationPack cant={100} />
         <Header showMenu={handleMenu} />
-        <Sider show={showMenu} />
+        <Sider show={showMenu} setShow={handleMenu} />
         <div className="w-full pt-14 md:pt-0 md:pl-36">
           <MainRouter />
         </div>

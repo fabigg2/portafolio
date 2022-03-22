@@ -25,7 +25,7 @@ const content = [
                 "link": "/",
                 "content": {
                     "titles": [
-                        "Hello,",
+                        "Hola,",
                         "Soy Fabian,",
                         "Desarrollador web"
                     ],
@@ -37,12 +37,12 @@ const content = [
                 "link": "/about",
                 "content": {
                     "titles": [
-                        "¿Quien soy?"
+                        "¿Quién soy?"
                     ],
                     "paragraf": [
-                        "Soy un desarrollador web full stack junior, hablo 2 idomas (español y inglés), realmente me apaciona el desarrollo back-end, el control que se puede ejercer sobre la estructura y el acceso a la información.",
-                        "Autodidata, aprendo bastante rápido, solucionador de problesmas y alta atension a los detalles. Me gusta la muscia, cocinar, dibujar y todo tipo de atividades que requiran uso de creatividad.",
-                        "Me interesa el desarrollo front-end, me gustan los los efectos de las interfaces de usuarios, las animaciones y el dinamismo de las aplicaciones. "
+                        "Soy un desarrollador web full stack junior, hablo 2 idiomas (español y inglés), me apasiona el desarrollo back-end, me especializo en javascript como lenguaje de programación principal. Utilizando diferentes frameworks disponibles en este lenguaje, puedo crear aplicaciones del lado del cliente y también del lado del servidor.",
+                        "Autodidacta, aprendo rápido, solucionador de problemas y creativo. Me gusta la música,  los idiomas, cocinar, dibujar,  y todo tipo de actividades que requieran uso de creatividad.",
+                        "Me interesa el desarrollo front-end, me gustan los efectos de las interfaces de usuarios, las animaciones y el dinamismo de las aplicaciones."
                     ]
                 }
             },
@@ -54,9 +54,9 @@ const content = [
                         "Habilidades"
                     ],
                     "paragraf": [
-                        "Desde el inicio de mi carrera, cerca de 6 atrás he venido desarrollando y mejorando mi logica para la solucion de problemas y aprendiendo diferentes tecnogias para implementar soluciones a dichos problemas.",
-                        "Para mejorar mis hablilidades en diferentes technologias he realizado trabajos freelance y muchos proyectos personales."
-                    ]
+                        "Desde el inicio de mi carrera, he venido desarrollando y mejorando mi lógica para la solución de problemas, he aprendido diferentes tecnologías, con la finalidad de poder modelar e implementar soluciones a diferentes tipos problemas.",
+                        "Para mejorar mis habilidades en diferentes tecnologías he realizado trabajos freelance y muchos proyectos personales."
+                        ]
                 }
             },
             works: {
@@ -64,11 +64,11 @@ const content = [
                 "link": "/works",
                 "content": {
                     "titles": [
-                        "¿Trabajos?"
+                        "Trabajos"
                     ],
                     "paragraf": [
-                        "En esta seccion podras encontrar algunos de los projectos que he realizado como freelancer, y otros  personales, que he realizado con el objectivo de mejorar mis habilidades y/o aprender nuevas tecnoligas.",
-                        ""
+                        "A continuación he listado algunos proyectos que he realizado como freelance, y también proyectos personales. siéntete libre de visitarlos y conocerlos.",
+
                     ]
                 }
             },
@@ -80,8 +80,7 @@ const content = [
                         "Contacto"
                     ],
                     "paragraf": [
-                        "Actualmente estoy altamente interesado en trabajos formales, si es el caso o no, deja tu mensaje me pondre en contacto con tigo lo mas pronto posible.",
-                        ""
+                        "Si crees que mis habilidades pueden ayudarte, y es lo que necesitas, deja un mensaje yo me pondré en contacto contigo lo más pronto posible."
                     ]
                 }
             }
